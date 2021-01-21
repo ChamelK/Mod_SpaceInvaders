@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerContr : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     private Transform player;
     public float speed;
