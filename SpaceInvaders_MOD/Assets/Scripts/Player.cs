@@ -11,8 +11,8 @@ public class Player : MonoBehaviour
     private Vector3 offScreenPos = new Vector3(0, -20f);
     private Vector3 startPos = new Vector3(0, 0, 15f);
 
-    public const float Max_Left = -2.0f;
-    public const float Max_Right = 2.0f;
+    public const float Max_Left = -14.0f;
+    public const float Max_Right = 14.0f;
 
 
     private bool isShooting;

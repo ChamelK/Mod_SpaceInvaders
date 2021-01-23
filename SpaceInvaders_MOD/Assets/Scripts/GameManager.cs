@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     public GameObject[] allAlienSets;
 
     private GameObject currentSet;
-    private Vector3 spawnPos = new Vector3(0, 0);
+    private Vector3 spawnPos = new Vector3(0, 5);
 
     private static GameManager instance;
 
@@ -18,6 +18,13 @@ public class GameManager : MonoBehaviour
         else
             Destroy(gameObject);
     }
+
+    private void Start()
+    {
+        SpawnNewWave();
+    }
+
+
 
     public static void SpawnNewWave()
     {
